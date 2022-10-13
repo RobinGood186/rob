@@ -1,0 +1,40 @@
+body {padding: 0;margin: 0;  width: 100%;color: #FFFFFF; background: #131313}
+
+.fixed {position: fixed;background: #1C1C1C;width: 100%; height: 60px; z-index: 999;text-decoration-color: red}
+  .menu  {position: relative;font-size: 30px;left: 65%; top:7px;text-decoration: none;}
+  .glav {position:absolute;font-size: 25px; left: 30px; top: -40px}
+  .line {background: #999999; position: relative; height: 1px; top: 25px}
+
+  .aside {position: absolute;left: 77%;padding-top: 10%;word-wrap: break-word; width: 250px; color: yellow; font-size: 20px}
+
+
+.text-glav {position: absolute;top: 10%; left: 5%;font-size: 20px; padding-top: 50px;}
+
+.form{width: 600px;padding: 32px;border-radius: 20px;box-shadow: 0 4px 16px  #ccc; font-family: sans-serif; letter-spacing: 1px}
+
+  .form-button,.form-input {font-family: sans-serif; letter-spacing: 1px;font-size: 16px}
+
+
+
+  .form-title {text-align: center;margin: 0 0 32px 0; font-weight:normal;}
+
+  .form-group {position: relative;margin-bottom: 32px}
+
+  .form-label{position: absolute;left: 0px;z-index: -1;transition: 0.3s; font-size: 0px}
+
+  .form-input {width: 70%; padding: 0 0 10px 0; color: #e0e0e0;border: none; border-bottom: 1px solid #e0e0e0; background-color: transparent; outline: none; transition: 0.3s;}
+
+  .form-input:focus {border-bottom: 1px solid #1a73a8;}
+
+  .form-input:focus~.form-label{top:-20px; font-size: 15px;color: #e0e0e0;}
+  .succes {z-index: 99999;position: absolute;top: 18px;left: 190px;font-size: 20px; background: red;}
+  .success {position: absolute;top: 354px;left: 220px;font-size: 20px; background: red;}
+  .errors {position: absolute;width: 210px;top: 250px;left: 480px;font-size: 20px}
+.nofixed {  position: absolute; top: 12%; left: 20%; width: 700px;}
+  .echo_bd {word-wrap: break-word;border-radius: 20px;box-shadow: 0 4px 16px  #ccc; font-family: sans-serif; letter-spacing: 1px;
+  position: relative;text-align: center;top: 20px;  left: 10%; width: 550px;}
+  .botton-detal {position: relative;; left:-100px;top: -10px; background: blue; color: #FFFFFF}
+  .botton-del {position: relative; left: 50px; top: -10px;background: red; color:#FFFFFF}
+.botton-detal-cnfg {position: relative;; left:0px;top: -10px; background: blue; color: #FFFFFF; width: 300px; height: 30px}
+  .text-name {padding: 10px 10px 0px 10px}
+.text-redact {padding: 15px 10px 0px 10px}
